@@ -1,0 +1,29 @@
+coboltut-1.cob      -  basic input, compute, display & different data type in working storage
+coboltut-2.cobol    -  different type of moving/assigning data to variable & different compute calculation type
+coboltut-3.cob      -  type of looping & type of comparation (>, <, =)
+coboltut-4.cob      -  call subfunction
+coboltut-5.cob      -  file for linkage to "coboltut-5Main.cob" 
+coboltut-5Main.cob  -  file call and display data of linked file (coboltut-5.cob) + compilation code in terminal for compile both tut-5 file
+coboltut-6.cob      -  for-loop and while-loop
+coboltut-7.cob      -  different data format($, ',', /) & changing data format from variable to variable
+coboltut-8.cob      -  Price calculation - Rounded decimal
+coboltut-9.cob      -  different type fn for string (joined, unjoined string, count string characters)
+coboltut-10.cob     -  gen new .dat file from the program & write info into it (replace whole previous info)
+coboltut-11.cob     -  extend data into existing file (add on data, no remove previous data)
+coboltut-12.cob     -  deal with 2 type of external files types (read & write) & develop format to the file
+coboltut-13.cob     -  create menu & add, delete, edit data of the external file [action on file based on ID]
+coboltut-14.cob     -  work with table (one column data, multiple column data, table with index)
+coboltut-15.cob     -  table with "redefines" format & change str format to number format/dollar format
+coboltut-16.cob     -  data sorting from a file and save to another file 
+coboltut-17.cob     -  Data merging from different files & sorting into new file
+testPOS.cob         - try simple POS system - very basic login + menu 
+
+
+Customer Report.rpt - use by coboltut-12.cob
+Customer.dat        - use by coboltut-10.cob, coboltut-11.cob & coboltut-12.cob
+customer.dat        - use by coboltut-13.cob
+student.dat         - use by coboltut-16.cob, coboltut-17.cob 
+student2.dat        - use by coboltut-16.cob 
+student3.dat        - use by coboltut-17.cob 
+student4.dat        - use by coboltut-17.cob
+Menu.dat            - use by testPOS.cob 
